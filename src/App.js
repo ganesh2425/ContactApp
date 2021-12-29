@@ -1,11 +1,13 @@
 import React from 'react';
+import Contacts from './components/Contacts';
+import Header from "./components/Header";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h2>Good morning</h2>
-      <button className='btn btn-primary'>Login</button>
+      <Header/>
+      <Contacts/>
     </div>
   );
 }
